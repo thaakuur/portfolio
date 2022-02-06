@@ -875,7 +875,7 @@ section {
 }
 
 .deck-content {
-  font-size: x-large;
+  font-size: 20px;
 }
 
 .button {
@@ -907,3 +907,4 @@ section {
   justify-content: center;
   align-items: center;
 }
+
