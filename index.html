@@ -48,7 +48,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid">
         <h1 class="text-light"><a href="index.html">Shailja Thakur</a></h1>
         <div class="social-links mt-3 text-center">
           <a                 href="mailto:shailja@iiitkalyani.ac.in"      class="email">     
@@ -92,17 +92,17 @@
 
         <div class="row">
           <div class="col-lg-2" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid rounded-circle" alt="">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-10 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p>
+            <p style="font-size: x-large;">
               This is Shailja Thakur, Computer Science graduate from Indian Institute of Information Technology, Kalyani, 2019. 
               I am an analytics-driven person with experience in the ideation and implementation of strategies.
             </p>
-            <p>
+            <p style="font-size: x-large;">
               The last company I worked for a period of two years, Intangles Lab had a digital-twinning-based vehicle health monitoring system and performance analysis for fleet operations. As an Applied Machine Learning Engineer, my profile lied at the intersection of automotive technology, statistical modeling, data mining techniques, and computation. I managed multiple projects at a time, delivering solutions on time with improved accuracy.
             </p>
-            <p>
+            <p style="font-size: x-large;">
               [Last Updated: January 2022]
             </p>
           </div>
@@ -112,7 +112,7 @@
     </section><!-- End About Section -->
     
     <!-- ======= Portfolio (Fun) Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
@@ -120,32 +120,49 @@
 
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Decks</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col portfolio-item filter-books">
-            <div class="portfolio-wrap">
-                <img src="assets/img/books_movies_0.jpg" class="img-fluid" alt="Gratitude App">
-              <div class="portfolio-links">
-                <a target="_blank" href=https://docs.google.com/presentation/d/1JyKgrGzTzET9bW9iOhSQAAoR4tZmN1wkbpprO2fpO-8/edit#slide=id.gd00147dec1_0_0>Gratitude App</a>
-              </div>
+          <div class="col portfolio-item filter-books grid-container">
+            <div class="grid-item deck-content">
+              I made a Product deck on the Gratitude App, an app that I like a lot.
+              It’s a guided gratitude journal with - I am affirmations.
+              It features manifestation with a vision board and dream board for manifestation and law of attraction practice.
+              The Product deck suggests four different features or additions which can improve Gratitude App for both the users and the company.
+              Click on the below tab to access the product deck, where I will take you through the different Pain Points, Solutions and Metrics.
             </div>
-          </div>
-          <div class="col portfolio-item filter-books">
-            <div class="portfolio-wrap">
-              <img src="assets/img/books_movies_0.jpg" class="img-fluid" alt="Gratitude App">
-              <div class="portfolio-links">
-                <a target="_blank" href=https://drive.google.com/file/d/1rDhCMAQzIoJP8F9DkDacS5hOzpI6rN95/view?usp=sharing>Abacus App</a>
-              </div>
+            <div class="portfolio-wrap grid-item">
+              <img src="assets/img/books_movies_0.jpg" class="img-fluid" alt="Gratitude App" onclick="">
             </div>
+            <div class="grid-item center">
+              <button class="button w-full" type="button" id="gratitude">Open Deck</button> 
+            </div>
+            <div class="grid-item deck-title">Gratitude App</div>
+            <hr style="height: 3px;"/>
+            <hr style="height: 3px;"/>
           </div>
+          <div class="col portfolio-item filter-books grid-container">
+            <div class="grid-item deck-content">
+              In today’s connected, consumerist lifestyle, one can easily find themselves  overwhelmed by the complexity and time burden of managing personal finances.  We have various services and infrastructure maintaining fragments of our  financial footprint – banks, UPI apps, all the various wallets, our investment  portfolios and so many more micro-services.  
+              Usually, the financial-unsavvy person would get overloaded by this information  and tend to ignore it altogether. 
+              Here's a Product deck I made around getting creative with Personal Finance app, where I will take you through the different Pain Points, Solutions and Metrics.
+            </div>
+            <div class="portfolio-wrap grid-item">
+              <img src="assets/img/Abacus.jpg" class="img-fluid" alt="Abacus" >
+            </div>
+            <div class="grid-item center">
+              <button 
+                class="button w-full" 
+                type="button"
+                id="abacus"
+              >
+                Open Deck
+              </button>
+            </div>
+            <div class="grid-item deck-title">Abacus</div>
+            <hr style="height: 3px;"/>
+            <hr style="height: 3px;"/>
+          </div>
+        </div>
     </section><!-- End Portfolio / Fun Section -->
 
     <!-- ======= Resume Section ======= -->
@@ -167,12 +184,8 @@
               <ul>
                 <li>Generated Fleet Performance Insight for OEMs, the process generates insights for requested duration in regards to - Fuel, Distance, Driven Hours, Idling, Hardbraking, Overspeeding, Mileage etc in the fleet. Impact was improvement in daily driver duty.</li>
                 <li>Generated Driver Performance Model using TOPSIS. The algorithm generates performance insights for each driver duty for a particular route. The model helped customers in keeping a track of good and bad driver duty and rewarding and warning accordingly.</li>
+                <li>Improvised algorithm for live tracking Adblue level mechanism in vehicles. The accuracy went from 75% to 99%. OEM customers were then able to keep a track of thefts, refills, b-point in real time.</li>
               </ul>
-<!--               <h5>Software Engineer I (Sep 2018 - Oct 2020)</h5>
-              <ul>
-                <li>Maintained TCP proxy component of Cisco's NGFW (Next Generation Firewall).</li>
-                <li>Revamped Health Monitoring System on FTD & ASA devices by migrating to latest telemetry tools.</li>
-              </ul> -->
             </div>
             <div class="resume-item">
               <h4>Shipsy</h4>
@@ -196,16 +209,15 @@
 
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Education</h3>
-<!--             <div class="resume-item">
-              <h4>M.Tech. (Data Science)</h4>
-              <p><em>Birla Institute of Technology and Science, Pilani (WILP)</em></p>
-              <h5>2021 - 2023</h5>
-              <p></p>
-            </div>
- -->            <div class="resume-item">
+            <div class="resume-item">
               <h4>B.Tech. (Computer Science) - 8.21/10</h4>
               <p><em>Indian Institute of Information Technology, Kalyani</em></p>
               <h5>2015 - 2019</h5>
+              <ul>
+                <li>Co-Founder and Club President - Udaan, The Literary Society, IIIT Kalyani (2017-19)</li>
+                <li>Industrial Relations Manager - T&P Cell, IIIT Kalyani (2018)</li>
+                <li>Member of Dance club - Groovz</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -257,47 +269,7 @@
                 <div class="progress-bar" style="width:85%"> </div>
               </div>
             </div>
-           <!--  <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" >Strategy</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="https://www.udemy.com/certificate/UC-7509c93b-f09e-4ec0-88e3-59f7d8b7313b/">View Certificate (Jan-2022)</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" href="https://www.credly.com/org/cisco/badge/data-science-cisco-green-belt">Data Science - Green Belt (Cisco)</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="https://www.credly.com/badges/107523f4-9a81-4b1c-9bac-2c1d911adcc3/public_url">View Certificate (Dec-2021)</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" href="https://www.coursera.org/learn/building-no-code-apps-with-appsheet-foundations">Building No-Code Apps with AppSheet: Foundations</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="http://coursera.org/verify/HCXP4WYABHKU">View Certificate (Nov-2021)</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" href="https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/">Microsoft Excel - Excel from Beginner to Advanced</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="https://www.udemy.com/certificate/UC-9a52eddb-7ae4-4059-86b5-4735e05a40b3/">View Certificate (Jul-2021)</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" href="https://www.coursera.org/learn/aws-improve-python-code-amazon-codeguru">Improve Your Python Code Using Amazon CodeGuru</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/B67QNUEQBZG2">View Certificate (Jun-2021)</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" href="https://www.udemy.com/course/qc101-introduction-to-quantum-computing-quantum-physics-for-beginners/">Quantum Computing & Quantum Physics for Beginners</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="https://www.udemy.com/certificate/UC-d52f1444-4c8e-461d-ab20-b5faaa222d03/">View Certificate (Jun-2021)</a></div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box">
-              <h4 class="title"><a target="_blank" href="https://www.udemy.com/course/mathematics-prerequisites-for-quantum-computing-and-quantum-physics/">Math Prerequisites for Quantum Computing</a></h4>
-              <div class="progress">
-                <div class="progress-bar" style="width:100%"><a target="_blank" href="https://www.udemy.com/certificate/UC-a363b59c-1f5c-4999-a754-c5a9a45ba655/">View Certificate (Jun-2021)</a></div>
-              </div> -->
+           
             </div>
           </div>
         </div>
@@ -323,24 +295,6 @@
                 </div>
               </div>
             </div>
-<!--             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p><a href="tel:+91-8005097769">(+91) 80050977769</a></p>
-                </div>
-              </div>
-            </div> -->
-<!--             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="whatsapp">
-                  <i class="bx bxl-whatsapp"></i>
-                  <h4>WhatsApp:</h4>
-                  <p><a target="_blank" href="https://wa.me/+918005097769">Open App</a></p>
-                </div>
-              </div>
-            </div> -->
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="info">
                 <div class="linkedin">
@@ -356,51 +310,6 @@
                   <i class="bx bxl-wordpress"></i>
                   <h4>WordPress:</h4>
                   <p><a target="_blank" href="https://concretedreamerblog.wordpress.com">Open Link</a></p>
-                </div>
-              </div>
-            </div>
-<!--             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="instagram">
-                  <i class="bx bxl-instagram"></i>
-                  <h4>Instagram:</h4>
-                  <p><a target="_blank" href="https://instagram.com/mesksr">Open Link</a></p>
-                </div>
-              </div>
-            </div> -->
-<!--             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="twitter">
-                  <i class="bx bxl-twitter"></i>
-                  <h4>Twitter:</h4>
-                  <p><a target="_blank" href="https://twitter.com/mesksr">Open Link</a></p>
-                </div>
-              </div> -->
-<!--             </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="duolingo">
-                  <i class="bi bi-chat-square-quote"></i>
-                  <h4>Duolingo:</h4>
-                  <p><a target="_blank" href="https://www.duolingo.com/profile/mesksr">Open Link</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="goodreads">
-                  <i class="bi bi-book"></i>
-                  <h4>Goodreads:</h4>
-                  <p><a target="_blank" href="https://goodreads.com/mesksr">Open Link</a></p>
-                </div>
-              </div>
-            </div> -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="info">
-                <div class="git">
-                  <i class="bx bxl-git"></i>
-                  <h4>GitHub:</h4>
-                  <p><a target="_blank" href="https://github.com/thaakuur">Open Link</a></p>
                 </div>
               </div>
             </div>
@@ -438,6 +347,16 @@ Updated in <br>January 2022
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script type="text/javascript">
+    document.getElementById("abacus").onclick = function () {
+        location.href = "https://docs.google.com/presentation/d/1lZJ_sp9fM7wq4T1-T4s9ocElPovfj1KXyQp4GkAWzRQ/edit?usp=sharing";
+    };
+  </script>
+  <script type="text/javascript">
+    document.getElementById("gratitude").onclick = function () {
+        location.href = "https://docs.google.com/presentation/d/1sEmVSpR9to5AQzFsLbvNAzvQan9aFe5rvrWYIyrCuvg/edit?usp=sharing";
+    };
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
